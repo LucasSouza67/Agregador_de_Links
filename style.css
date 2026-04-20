@@ -17,7 +17,6 @@
     --color-linkedin: #0077B5;
     --color-sqlserver: #ff0000;
 }
-
 /* ================= RESET ================= */
 * {
     margin: 0;
@@ -44,29 +43,24 @@ a {
 .flex {
     display: flex;
 }
-
 .flex-col {
     display: flex;
     flex-direction: column;
 }
-
 .flex-center {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
 .full {
     width: 100%;
 }
-
 .card {
     background-color: var(--color-black);
     border-radius: 12px;
     padding: 1rem;
     transition: transform 0.2s ease-out, box-shadow 0.2s ease-out;
 }
-
 .card:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 25px rgba(0,0,0,0.3);
@@ -83,7 +77,6 @@ a {
     display: flex;
     justify-content: center;
 }
-
 .content {
     width: 100%;
     min-width: 320px;
@@ -104,14 +97,12 @@ a {
     justify-content: center;
     align-items: center;
 }
-
 #loading-bar {
     position: absolute;
     inset: 0;
     width: 0%;
     background-color: var(--color-green);
 }
-
 #loading-text {
     font-size: 3rem;
     color: var(--color-white);
@@ -124,28 +115,23 @@ a {
     justify-content: space-between;
     align-items: center;
 }
-
 .info-user {
     display: flex;
     align-items: center;
     gap: 0.6rem;
 }
-
 .name-user h1 {
     font-size: 1.2rem;
     color: var(--color-white);
     font-weight: 600;
 }
-
 .name-user span {
     font-size: 0.8rem;
     color: #ffffffb4;
 }
-
 .info-icon {
     width: 35px;
 }
-
 .info-icon img {
     width: 100%;
     animation: rotate 5s linear infinite;
@@ -157,36 +143,30 @@ a {
     flex-direction: column;
     gap: 1rem;
 }
-
 .section-skills {
     display: flex;
     flex-direction: column;
     gap: 0.4rem;
 }
-
 .section-skills + .section-skills {
     margin-top: 0.5rem;
 }
-
 .destaque {
     color: var(--color-green);
     font-weight: bold;
     font-size: 1rem;
 }
-
 .skills-icons {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
 .skills-icons i {
     font-size: 2.5rem;
     color: #fff;
     transition: 0.3s;
     cursor: pointer;
 }
-
 /* Hover cores */
 .devicon-nodejs-plain-wordmark:hover { color: var(--color-python); }
 .devicon-java-plain:hover { color: var(--color-java); }
@@ -211,37 +191,30 @@ a {
     display: flex;
     justify-content: center;
 }
-
 .redes-sociais {
     display: flex;
     gap: 15px;
     width: 100%;
     justify-content: center;
 }
-
 .box-social {
     width: 80px;
     height: 80px;
     border-radius: 10px;
     background-color: var(--color-black);
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
-
 .box-social:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 20px rgba(0,0,0,0.3);
 }
-
 .box-social i {
     font-size: 2.5rem;
     color: var(--color-white);
 }
-
 /* Hover cores sociais */
 .instagram:hover i { color: var(--color-insta); }
 .github:hover i { color: var(--color-github); }
@@ -251,20 +224,17 @@ a {
 .widget4 {
     background-color: var(--color-green);
 }
-
 .meu-site {
     display: flex;
     align-items: center;
     gap: 0.8rem;
     width: 100%;
 }
-
 .meu-site img {
     width: 50px;
     height: 50px;
     animation: pulse 3s infinite ease-in-out;
 }
-
 .meu-site h2 {
     font-size: 1.2rem;
     font-weight: bold;
