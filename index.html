@@ -5,18 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meus links - Lucas Souza</title>
     <link rel="stylesheet" href="style.css">
+    <!-- Ícones -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
     <link rel="shortcut icon" href="favicon_io/favicon.ico" type="image/x-icon">
 </head>
 <body>
+    <!-- LOADING -->
     <div id="loading-screen">
         <div id="loading-bar"></div>
         <div id="loading-text">0%</div>
     </div>
-    <div class="container">
+    <!-- CONTAINER -->
+    <main class="container">
         <div class="content">
-            <div class="widget1">
+            <!-- HEADER -->
+            <header class="widget1 card">
                 <div class="info-user">
                     <div class="name-user">
                         <h1>Lucas Souza</h1>
@@ -24,52 +28,74 @@
                     </div>
                 </div>
                 <div class="info-icon">
-                    <img src="favicon_io/favicon-32x32.png" alt="icon">
+                    <img src="favicon_io/favicon-32x32.png" alt="Ícone">
                 </div>
-            </div>
-            <div class="widget2">
-                <div class="back_end">
+            </header>
+            <!-- SKILLS -->
+            <section class="widget2 card">
+                <div class="section-skills">
                     <span class="destaque">Back End</span>
                     <div class="skills-icons">
-                        <i class="devicon-python-plain"></i>
-                        <i class="devicon-java-plain"></i>
-                        <i class="devicon-nodejs-plain-wordmark"></i>
+                        <i class="devicon-python-plain" title="Python"></i>
+                        <i class="devicon-java-plain" title="Java"></i>
+                        <i class="devicon-nodejs-plain-wordmark" title="Node.js"></i>
                     </div>
                 </div>
-                <div class="front_end">
+                <div class="section-skills">
                     <span class="destaque">Front End</span>
                     <div class="skills-icons">
-                        <i class="devicon-javascript-plain"></i>
-                        <i class="devicon-react-original"></i>
-                        <i class="devicon-typescript-plain"></i>
+                        <i class="devicon-javascript-plain" title="JavaScript"></i>
+                        <i class="devicon-react-original" title="React"></i>
+                        <i class="devicon-typescript-plain" title="TypeScript"></i>
                     </div>
                 </div>
-                <div class="ferramentas">
+                <div class="section-skills">
                     <span class="destaque">Ferramentas</span>
                     <div class="skills-icons">
-                        <i class="devicon-microsoftsqlserver-plain-wordmark"></i>
-                        <i class="devicon-mysql-plain-wordmark"></i>
-                        <i class="devicon-github-plain"></i>
+                        <i class="devicon-microsoftsqlserver-plain-wordmark" title="SQL Server"></i>
+                        <i class="devicon-mysql-plain-wordmark" title="MySQL"></i>
+                        <i class="devicon-github-plain" title="GitHub"></i>
                     </div>
                 </div>
-            </div>
-            <div class="widget3">
+            </section>
+            <!-- REDES SOCIAIS -->
+            <nav class="widget3">
                 <div class="redes-sociais">
-                    <a class="box-social linkedin" href="https://www.linkedin.com/in/lucas-souza-1b5b862b4/" target="_blank" rel="external"><i
-                        class="fab fa-linkedin-in"></i></a>
-                    <a class="box-social instagram" href="https://www.instagram.com" target="_blank" rel="external"><i
-                            class="fab fa-instagram"></i></a>
-                    <a class="box-social github" href="https://github.com/LucasSouza67" target="_blank" rel="external"><i
-                            class="fab fa-github"></i></a>
+                    <a class="box-social linkedin"
+                       href="https://www.linkedin.com/in/lucas-souza-1b5b862b4/"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a class="box-social instagram"
+                       href="https://www.instagram.com"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a class="box-social github"
+                       href="https://github.com/LucasSouza67"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
                 </div>
-            </div>
-            <div class="widget4">
-                <a href="https://portifolio-lucas-gamma.vercel.app/" class="meu-site" target="_blank">
-                    <img src="img/web-black-icon.png" alt="web">
-                    <h1>Meu portfolio</h1>
+            </nav>
+            <!-- BOTÃO PORTFÓLIO -->
+            <section class="widget4 card">
+                <a href="https://portifolio-lucas-gamma.vercel.app/"
+                   class="meu-site"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    <img src="img/web-black-icon.png" alt="Portfólio">
+                    <h2>Meu portfólio</h2>
                 </a>
-            </div>
-    </div>
+            </section>
+        </div>
+    </main>
     <script src="animationLoading.js"></script>
 </body>
 </html>
