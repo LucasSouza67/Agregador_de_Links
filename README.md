@@ -12,7 +12,7 @@ Aplicação web simples e moderna para centralizar links importantes, tecnologia
 
 ## 🚀 Demonstração
 
-👉 Acesse: <a src= "https://agregador-de-links-five.vercel.app/" target="_blank" rel="noopener noreferrer"> Meu Agregador de Links </a>  
+👉 Acesse: <a href= "https://agregador-de-links-five.vercel.app/" target="_blank" rel="noopener noreferrer"> Meu Agregador de Links </a>  
 
 ---
 
