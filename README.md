@@ -12,7 +12,7 @@ Aplicação web simples e moderna para centralizar links importantes, tecnologia
 
 ## 🚀 Demonstração
 
-👉 Acesse: https://
+👉 Acesse: https://agregador-de-links.vercel.app/
 
 ---
 
@@ -57,7 +57,7 @@ Aplicação web simples e moderna para centralizar links importantes, tecnologia
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/LucasSouza67/seu-repositorio.git
+git clone https://github.com/LucasSouza67/Agregador_de_Links
 ```
 
 2. Acesse a pasta:
@@ -89,23 +89,3 @@ Este projeto foi desenvolvido com foco em:
 * Criação de interfaces modernas e responsivas
 * Aplicação de boas práticas de UX/UI
 
----
-
-## 📞 Contato
-
-* LinkedIn: https://www.linkedin.com/in/lucas-souza-1b5b862b4/
-* GitHub: https://github.com/LucasSouza67
-* Instagram: https://www.instagram.com
-
----
-
-## 📄 Licença
-
-Este projeto está sob a licença MIT.
-Sinta-se livre para usar e modificar.
-
----
-
-## ⭐ Contribuição
-
-Se você gostou do projeto, considere deixar uma ⭐ no repositório!
