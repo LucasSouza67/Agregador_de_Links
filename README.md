@@ -1,4 +1,4 @@
-# 🔗 Link Aggregator - Lucas Souza
+# 🔗 Agregador de Links - Lucas Souza
 
 Aplicação web simples e moderna para centralizar links importantes, tecnologias utilizadas e formas de contato em um único lugar.
 
@@ -12,7 +12,7 @@ Aplicação web simples e moderna para centralizar links importantes, tecnologia
 
 ## 🚀 Demonstração
 
-👉 Acesse: https://agregador-de-links-five.vercel.app/
+👉 Acesse: <a src= "https://agregador-de-links-five.vercel.app/" target="_blank" rel="noopener noreferrer"> Meu Agregador de Links </a>  
 
 ---
 
